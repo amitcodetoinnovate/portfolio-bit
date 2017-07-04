@@ -1,2 +1,2 @@
 # portfolio-bit
-This a portfolio project.
+This my portfolio project.
