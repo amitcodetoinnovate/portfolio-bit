@@ -11,7 +11,7 @@ html, body, h1, h2, h3, h4, p, div, ul, ol, li {
 
 h1 {
   font-family: "Helvetica Neue", Helvetica, sans-serif;
-  font-size: 70px;
+  font-size: 50px;
   font-weight: bold;
   text-align: center;
 }
@@ -31,7 +31,11 @@ h2 strong {
 }
 
 .header {
-  background-color: #999999;
+  background-color: rgba(99,99,99, 0.75);
+  position: fixed;
+  padding: 10px 0 10px 0;
+  width: 100%;
+  
 }
 
 h3 {
@@ -61,10 +65,11 @@ a:hover {
 }
 .tagline {
   background-color: #000000;
-  padding: 20px 0 20px 0;
+  padding: 100px 0 20px 0;
+  
 }
 .projects, .badges, .articles, .skills, .footer {
-  width: 900px;
+  width: auto
   margin: 0 auto;
 }
 .projects ul, .badges ul, .articles ul, .skills ul {
